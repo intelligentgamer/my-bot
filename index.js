@@ -177,7 +177,7 @@ client.on(`message`, message => {
         .addField("voici mon serveur de secours", "https://discord.gg/qDNz4NM")
         .addField("Voici mon lien pour m'inviter dans ton serveur ou a partager", "https://discordapp.com/oauth2/authorize?client_id=450449433344344064&scope=bot&permissions=1677016263")
         .addField("Si vous aimez le bot svp est ce que vous pouvez l'upvote sur ce lien ca me ferras beaucoup plaisir et merci pour l'upvote si vous l'avait fait ^^", "https://discordbots.org/bot/450449433344344064")
-        .addField("Dsl le bot a recu un probleme mais il est re connecter", "Le probleme a ete resolu")
+        .addField("Vous pouvez retrouver le bot sur ce lien aussi", "https://bots.discord.pw/bots/450449433344344064")
         .setFooter("Info - sur moi et le serveur")
         message.channel.sendMessage(info_embed)
         console.log("Un utilisateur a effectuer la commande d'info !")
