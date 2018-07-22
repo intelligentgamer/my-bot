@@ -13,7 +13,7 @@ var prefix = "ub!!";
 const ytdl = require('ytdl-core');
 const queue = new Map();
 var servers = {};
-client.login("NDUwNDQ5NDMzMzQ0MzQ0MDY0.Dhqdrg.Oa2bsav_Jh34in1bXEYaYDBEiBQ");
+client.login(process.env.TOKEN);
 
 function play(connection, message) {
   var server = servers[message.guild.id];
