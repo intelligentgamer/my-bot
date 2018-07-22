@@ -161,6 +161,7 @@ client.on(`message`, message => {
         .addField("Nom du discord", message.guild.name)
         .addField("Le serveur discord a ete cree le", message.guild.createdAt)
         .addField("Vous avez rejoin le serveur le", message.member.joinedAt)
+        .addField("Region", message.guild.region)
         .addField("Owner : ", message.guild.owner.user.username)
         .addField("Owner ID: ", message.guild.owner.id)
         .addField("Nombre de membres", message.guild.members.size)
