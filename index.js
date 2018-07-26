@@ -108,7 +108,7 @@ client.on(`message`, message => {
         .setTitle("Voici mes commandes d'aide X)")
         .setThumbnail(message.author.avatarURL)
         .setDescription("Je suis un bot moderation voici mes commandes disponible !")
-        .addField("ub!!help", "Affiche les commandes du bot")
+        .addField("ub!!help", "Affiche ce menu de tout les commandes du bot")
         .addField(":tools:moderations", "Affiche l'ade pour la moderation")
         .addField(":tada:fun", "Affiche l'aide pour le fun")
         .addField(":gear:utilitaires", "Affiche l'aide pour les commandes utilitaires comme par exemple(infobot donne les infos sur le bot)")
