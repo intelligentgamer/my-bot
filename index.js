@@ -110,7 +110,7 @@ client.on(`message`, message => {
         .setDescription("Je suis un bot moderation voici mes commandes disponible !")
         .addField("ub!!help", "Affiche ce menu de tout les commandes du bot")
         .addField("N'oubliez pas de mettre le prefix avant chaque commandes que vous effectuer", "Prefix(ub!!)")
-        .addField(":tools:moderations", "Affiche l'aide pour la moderation")
+        .addField(":tools:moderation", "Affiche l'aide pour la moderation")
         .addField(":tada:fun", "Affiche l'aide pour le fun")
         .addField(":gear:utilitaires", "Affiche l'aide pour les commandes utilitaires comme par exemple(infobot donne les infos sur le bot)")
         .setFooter("Menu d'aide - moderation")
