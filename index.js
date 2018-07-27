@@ -15,7 +15,7 @@ const queue = new Map();
 
 var servers = {};
 var prefix = "ub!!";
-client.login("NDUwNDQ5NDMzMzQ0MzQ0MDY0.Dhqdrg.Oa2bsav_Jh34in1bXEYaYDBEiBQ");
+client.login(process.env.TOKEN);
 
 function play(connection, message) {
 
