@@ -248,7 +248,7 @@ client.on(`message`, message => {
       .setTitle(':dog: Chien :')
       .setImage(gif)
       //.setThumbnail(gif)
-      .setFooter('Chien demander par - message.user.name')
+      .setFooter('Chien demander par - message.user.username')
       message.channel.send(dog_embed);
     }
 
