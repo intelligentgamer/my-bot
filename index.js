@@ -10,7 +10,7 @@ const db = low(adapter);
 
 db.defaults({ histoires: [], xp: []}).write();
 var prefix = "ub!!";
-client.login("NDUwNDQ5NDMzMzQ0MzQ0MDY0.Dlz6_w.nt4aqObhF0n4BzVk1k0cIcDohPI");
+client.login(process.env.TOKEN);
 
 client.on('message', message => {
     var msgauthor = message.author.id;
